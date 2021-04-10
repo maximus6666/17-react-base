@@ -17,6 +17,15 @@ function App() {
          image={RAY_IMAGE}
          date={"26 февр."}
       />
+      <Post author = {{
+            name: "Anakin Skywalker",
+            photo: ANAKIN_IMAGE,
+            nickname: "@dart_vader"
+         }}
+         content="WTF? Who is Ray? Why she is Skywalker? Luke...?"
+         image={RAY_IMAGE}
+         date={"26 февр."}
+      />
     </div>
   );
 }

@@ -16,6 +16,16 @@
 .author-panel {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.chevron {
+  width: 20px;
+}
+
+.author-info-block {
+  display: flex;
+  align-items: center;
 }
 
 .post-info img {

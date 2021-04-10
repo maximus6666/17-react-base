@@ -5,6 +5,7 @@ import heart from "../icons/heart.svg";
 import reposts from "../icons/repost.svg";
 import share from "../icons/share.svg";
 import verifyed from "../icons/verified.svg";
+import chevron from "../icons/down-chevron.svg";
 
 export default function Post (props) {
   
@@ -12,7 +13,8 @@ export default function Post (props) {
 
     <div className="post">
 		<div className="author-panel">
-			<img src={props.author.photo} className="author-photo" alt='author'/>
+			<div className="author-info-block">
+				<img src={props.author.photo} className="author-photo" alt='author'/>
 				<div className="text-wrapper">
 					<div className="post-info">
 						<span className="author-name">{props.author.name}</span>
@@ -22,6 +24,8 @@ export default function Post (props) {
 					</div>
 					<span className="post-content">{props.content}</span>
 				</div>
+			</div>
+			<img className="chevron" src={chevron} alt="arow"/>
 		</div>
 		<div className="post-img-block">
 			<img className="post-img" src={props.image} alt="post-img"/>

@@ -46,16 +46,13 @@
 
 .post-info {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .post-info img {
   margin-right: 10px;
 }
 
-.post-content {
-  width: max-content;
-
-}
 
 .post-img-block {
   margin-left: 50px;
